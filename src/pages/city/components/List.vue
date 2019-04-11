@@ -86,23 +86,6 @@ export default {
     border-color: #ccc
   &:after
     border-color: #ccc
-.title
-  line-height: .4rem
-  background: #eee
-  padding-left: .2rem
-  color: #666
-  font-size: .26rem
-.button-list
-  padding: .1rem
-  width: 33.33%
-  overfllow: hidden
-  .button-wrapper
-    float: left
-    width: 33.3%
-    .button
-      margin: .1rem
-      texe-align: center
-      border: .02rem solid #ccc
 .list
   position: absolute
   top: 1.58rem
