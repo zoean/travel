@@ -39,8 +39,12 @@ export default {
 .button-list
   padding: .1rem
   width: 33.33%
-  .button
-    margin: .1rem
-    texe-align: center
-    border: .02rem solid #ccc
+  overfllow: hidden
+  .button-wrapper
+    float: left
+    width: 33.3%
+    .button
+      margin: .1rem
+      texe-align: center
+      border: .02rem solid #ccc
 </style>
