@@ -81,6 +81,11 @@ export default {
 
 <style lang="stylus" scoped>
 @import '~styles/varibles.styl'
+.border-topbottom
+  &:before
+    border-color: #ccc
+  &:after
+    border-color: #ccc
 .list
   position: absolute
   top: 1.58rem
